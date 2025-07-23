@@ -31,7 +31,7 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 | `/incoming/legacy`           | Legacy file formats      | *Various legacy formats*; see partner docs                         | `N/A`          |     |
 | `/incoming/pos-events`       | Deal files or headers    | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`    |     |
 | `/incoming/products`         | Product files            | `ProductFeed_YYYYMMDD_HHMMSS.zip`                                  | `Comma (,)`    |     |
-| `/incoming/store-mapping`    | Location content files   | `StoreHierarchy_YYYYMMDD_HHMMSS.csv`<br>`Store_YYYYMMDD_HHMMSS.csv`  <br> `ReceiptFooter.xml`             | `Comma (,)`    |     |
+| `/incoming/store-mapping`    | Location content files   | `StoreHierarchy_YYYYMMDD_HHMMSS.csv`<br>`Store_YYYYMMDD_HHMMSS.csv`  <br> `ReceiptFooter_YYYYMMDD_HHMMSS.xml`             | `Comma (,)`    |     |
 | `/outgoing/audit`            | Audit output files       | `TransAudit_YYYYMMDD_HHMMSS.csv`                                   | `Comma (,)`    |     |
 | `/outgoing/coupons/barcodes` | Generated barcode images | `CpnBarCode-{PromoID}-YYYYMMDDHHMMSS.csv`                          | `Pipeline (\|)` |
 | `/outgoing/coupons/daily`    | Daily coupon files       | `CpnDaily_YYYYMMDDHHMMSS.sql`                                      | `Newline (\n)` |     |
