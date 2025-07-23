@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionTreeSiteImport>
+	<HeaderInfo>
+		<TTSIVersion>TTSIVersion</TTSIVersion>
+		<ApplicationID>string</ApplicationID>
+		<MerchantNumber>999999</MerchantNumber>
+		<DateGenerated>7/23/2025 11:46:48 AM</DateGenerated>
+	</HeaderInfo>
+	<Locations>
+		<Site>
+			<StoreNumber>001</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>002</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>003</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>004</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>005</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>006</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>007</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>008</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>009</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>010</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>011</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+		<Site>
+			<StoreNumber>012</StoreNumber>
+			<ReturnPolicy>Beginning October 25th All Sales are Final</ReturnPolicy>
+		</Site>
+	</Locations>
+</TransactionTreeSiteImport>
