@@ -24,22 +24,36 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 
 ### Directory Structure & File Naming
 
-| Directory                    | Usage                    | File Naming Pattern                                                | Delimiter    |     |
-| ---------------------------- | ------------------------ | ------------------------------------------------------------------ | ------------ | --- |
-| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`                                    | `Comma (,)`  |     |
-| `/incoming/customers`        | New or updated customers | `CustomerUpdate_YYYYMMDDHHMMSS.csv`                                | \`Pipeline ( | )\` |
-| `/incoming/legacy`           | Legacy file formats      | *Various legacy formats*; see partner docs                         | `N/A`        |     |
-| `/incoming/pos-events`       | Deal files or headers    | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`  |     |
-| `/incoming/products`         | Product files            | `ProductFeed_YYYYMMDD_HHMMSS.zip`                                  | `Comma (,)`  |     |
-| `/incoming/store-mapping`    | Location content files   | `Store_YYYYMMDD_HHMMSS.csv`  <br> `ReceiptFooter.xml`              | `Comma (,)`  |     |
-| `/outgoing/audit`            | Audit output files       | `TransAudit_YYYYMMDD_HHMMSS.csv`                                   | `Comma (,)`  |     |
-| `/outgoing/coupons/barcodes` | Generated barcode images | `CpnBarCode-{PromoID}-YYYYMMDDHHMMSS.csv`                          | \`Pipeline ( | )\` |
-| `/outgoing/coupons/daily`    | Daily coupon files       | `CpnDaily_YYYYMMDDHHMMSS.sql`                                      | \`Newline (  |     |
-| )\`                          |                          |                                                                    |              |     |
-| `/outgoing/coupons/sameday`  | Same‑day coupon files    | `CpnSameDay_YYYYMMDDHHMMSS.sql`                                    | \`Newline (  |     |
-| )\`                          |                          |                                                                    |              |     |
-| `/outgoing/customers`        | Customer master data     | `CustomerOutput_YYYYMMDDHHMMSS.csv`                                | \`Pipeline ( | )\` |
-| `/outgoing/reports`          | Scheduled reports        | `CpnBIData_YYYYMMDDHHMMSS.csv`                                     | \`Pipeline ( | )\` |
+| Directory                    | Usage                    | File Naming Pattern                                                | Delimiter      |     |
+| ---------------------------- | ------------------------ | ------------------------------------------------------------------ | -------------- | --- |
+| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`                                    | `Comma (,)`    |     |
+| `/incoming/customers`        | New or updated customers | `CustomerUpdate_YYYYMMDDHHMMSS.csv`                                | \`Pipeline (   | )\` |
+| `/incoming/legacy`           | Legacy file formats      | *Various legacy formats*; see partner docs                         | `N/A`          |     |
+| `/incoming/pos-events`       | Deal files or headers    | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`    |     |
+| `/incoming/products`         | Product files            | `ProductFeed_YYYYMMDD_HHMMSS.zip`                                  | `Comma (,)`    |     |
+| `/incoming/store-mapping`    | Location content files   | `Store_YYYYMMDD_HHMMSS.csv`  <br> `ReceiptFooter.xml`              | `Comma (,)`    |     |
+| `/outgoing/audit`            | Audit output files       | `TransAudit_YYYYMMDD_HHMMSS.csv`                                   | `Comma (,)`    |     |
+| `/outgoing/coupons/barcodes` | Generated barcode images | `CpnBarCode-{PromoID}-YYYYMMDDHHMMSS.csv`                          | \`Pipeline (   | )\` |
+| `/outgoing/coupons/daily`    | Daily coupon files       | `CpnDaily_YYYYMMDDHHMMSS.sql`                                      | `Newline (\n)` |     |
+| `/outgoing/coupons/sameday`  | Same‑day coupon files    | `CpnSameDay_YYYYMMDDHHMMSS.sql`                                    | `Newline (\n)` |     |
+| `/outgoing/customers`        | Customer master data     | `CustomerOutput_YYYYMMDDHHMMSS.csv`                                | \`Pipeline (   | )\` |
+| `/outgoing/reports`          | Scheduled reports        | `CpnBIData_YYYYMMDDHHMMSS.csv`                                     | \`Pipeline (   | )\` |
+
+\---------------------------- | -------------------------- | ------------------------------------------------------------------ | ------------------- |
+\| `/incoming/audit`            | Daily audit files          | `YYYYMMDDHHMMSS_dailyaudit.csv`                                    | `Comma (,)`         |
+\| `/incoming/customers`        | New or updated customers   | `CustomerUpdate_YYYYMMDDHHMMSS.csv`                                | `Pipeline (|)`      |
+\| `/incoming/legacy`           | Legacy file formats        | *Various legacy formats*; see partner docs                         | `N/A`               |
+\| `/incoming/pos-events`       | Deal files or headers      | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`         |
+\| `/incoming/products`         | Product files              | `ProductFeed_YYYYMMDD_HHMMSS.zip`                                  | `Comma (,)`         |
+\| `/incoming/store-mapping`    | Location content files     | `Store_YYYYMMDD_HHMMSS.csv`  <br> `ReceiptFooter.xml`              | `Comma (,)`         |
+\| `/outgoing/audit`            | Audit output files         | `TransAudit_YYYYMMDD_HHMMSS.csv`                                   | `Comma (,)`         |
+\| `/outgoing/coupons/barcodes` | Generated barcode images   | `CpnBarCode-{PromoID}-YYYYMMDDHHMMSS.csv`                          | `Pipeline (|)`      |
+\| `/outgoing/coupons/daily`    | Daily coupon files         | `CpnDaily_YYYYMMDDHHMMSS.sql`                                      | `Newline (
+)`      |
+\| `/outgoing/coupons/sameday`  | Same‑day coupon files      | `CpnSameDay_YYYYMMDDHHMMSS.sql`                                    | `Newline (
+)`      |
+\| `/outgoing/customers`        | Customer master data       | `CustomerOutput_YYYYMMDDHHMMSS.csv`                                | `Pipeline (|)`      |
+\| `/outgoing/reports`          | Scheduled reports          | `CpnBIData_YYYYMMDDHHMMSS.csv`                                     | `Pipeline (|)`      |
 
 ---
 
