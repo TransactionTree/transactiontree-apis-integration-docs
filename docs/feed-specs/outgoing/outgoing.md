@@ -1,4 +1,4 @@
-# Outbound File-Feed Specifications
+# outgoing File-Feed Specifications
 
 This document defines the format, naming conventions, directory paths, and validation rules for all file feeds sent *from* TransactionTree to partner organizations (TransactionTree → Partner).
 
@@ -6,7 +6,7 @@ This document defines the format, naming conventions, directory paths, and valid
 
 ## 1. Common Rules
 
-> *These rules apply to all outbound feeds.*
+> *These rules apply to all outgoing feeds.*
 
 * **Encoding**: UTF‑8, no BOM
 * **Timestamp**: All filenames include timestamps in `YYYYMMDDHHMMSS` format (24‑hour clock).
@@ -22,7 +22,7 @@ This document defines the format, naming conventions, directory paths, and valid
 * **Directory**: `/outgoing/audit`
 * **Filename**: `TransAudit_YYYYMMDD_HHMMSS.csv`
 * **Delimiter**: Comma (`, `)
-* **Description**: Daily audit report for processed inbound files.
+* **Description**: Daily audit report for processed incoming files.
 * **Columns** (sample):
 
   1. `AuditID` (String)
@@ -94,4 +94,4 @@ This document defines the format, naming conventions, directory paths, and valid
 
 ---
 
-*For questions about outbound feed structure, sample templates, or customizations, contact Data‑Ops at **data‑[ops@transactiontree.com](mailto:ops@transactiontree.com)**.*
+*For questions about outgoing feed structure, sample templates, or customizations, contact Data‑Ops at **data‑[ops@transactiontree.com](mailto:ops@transactiontree.com)**.*

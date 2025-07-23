@@ -8,7 +8,7 @@ Welcome to the **TransactionTree API & Data‑Feeds** documentation. This direct
 
 - Serve as the canonical source of truth for:
   - RESTful API definitions (OpenAPI/Swagger)
-  - Inbound & outbound file‑feed specifications (CSV/ZIP/SQL)
+  - incoming & outgoing file‑feed specifications (CSV/ZIP/SQL)
   - Connection details, naming conventions, folder layouts
   - Sample payloads, Postman collections, and cURL scripts  
 - Facilitate partner onboarding and developer self‑service  

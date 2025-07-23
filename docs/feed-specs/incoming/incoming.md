@@ -1,4 +1,4 @@
-# Inbound File-Feed Specifications
+# incoming File-Feed Specifications
 
 This document defines the format, naming conventions, directory paths, and validation rules for all file feeds sent *to* TransactionTree (Partner → TransactionTree).
 

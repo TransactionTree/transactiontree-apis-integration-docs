@@ -9,7 +9,7 @@ Welcome to the **TransactionTree API & Data‑Feeds** documentation. This direct
 * Provide a **single source of truth** for:
 
   * RESTful API definitions (OpenAPI/Swagger)
-  * Inbound & outbound file‑feed specifications (CSV, ZIP, SQL)
+  * incoming & outgoing file‑feed specifications (CSV, ZIP, SQL)
   * Connection details, naming conventions, directory layouts
   * Sample payloads, Postman collections, and cURL scripts
 * Streamline partner onboarding and developer self‑service
@@ -24,8 +24,8 @@ docs/
 ├── overview.md         ← This landing page: context & navigation  
 ├── sftp-guide.md       ← Complete SFTP User Guide (hosts, dirs, naming)  
 ├── feed-specs/
-│     ├── inbound.md    ← Inbound feeds (audit, customers, POS events…)  
-│     └── outbound.md   ← Outbound feeds (audit, coupons, reports…)  
+│     ├── incoming.md    ← incoming feeds (audit, customers, POS events…)  
+│     └── outgoing.md   ← outgoing feeds (audit, coupons, reports…)  
 └── reference/          ← Auto‑generated API reference (Markdown)  
       ├── authentication.md  
       ├── stores.md  
@@ -38,8 +38,8 @@ docs/
   Detailed SFTP connection info, directory usage, file‑naming patterns, delimiters.
 * **feed-specs/**
 
-  * `inbound.md` – Specs for files we receive from partners
-  * `outbound.md` – Specs for files we send back to partners
+  * `incoming.md` – Specs for files we receive from partners
+  * `outgoing.md` – Specs for files we send back to partners
 * **reference/**
   Markdown docs generated from our OpenAPI spec, one file per endpoint group.
 
