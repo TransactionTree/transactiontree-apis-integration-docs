@@ -89,11 +89,21 @@ This document defines the format, naming conventions, directory paths, and valid
 
 * **Directory**: `/incoming/store-mapping`
 * **Filenames**:
+Each batch must include three files sharing the same **Date**, **Time**, and **fileid**:
 
-  * `Store_YYYYMMDD_HHMMSS.csv`
-  * `ReceiptFooter.xml` (optional footer definitions)
+1. **StoreHierarchy**: `StoreHierarchy_<Date>_<Time>_<fileid>.csv`
+2. **Store**:            `Store_<Date>_<Time>_<fileid>.csv`
+3. **ReceiptFooter**:    `ReceiptFooter_<Date>_<Time>_<fileid>.xml` (optional footer definitions)
+
+
 * **Delimiter**: Comma (`,`)
 * **Columns (CSV)**:
+
+> **Filename components**:
+>
+> * `<Date>`: export date in `YYYYMMDD` (e.g. `20250417`).
+> * `<Time>`: export time in `HHMMSS` (24‑hour).
+> * `<fileid>`: partner batch identifier (must match across all three files).
 
   1. `Store_No` 2. `Country` 3. `Region_No` 4. `Region_Name` 5. `District_No` 6. `District_Name` 7. `Territory_No` 8. `LOB_ID` 9. `LineOfBusiness` 10. `LOBGroupName`
 
