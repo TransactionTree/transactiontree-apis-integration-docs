@@ -92,8 +92,8 @@ This document defines the format, naming conventions, directory paths, and valid
 Each batch must include three files sharing the same **Date**, **Time**, and **fileid**:
 
 1. [**StoreHierarchy**](store-mapping/StoreHierarchy.md): `StoreHierarchy_<Date>_<Time>_<fileid>.csv`
-2. **Store**:            `Store_<Date>_<Time>_<fileid>.csv`
-3. **ReceiptFooter**:    `ReceiptFooter_<Date>_<Time>_<fileid>.xml` (optional footer definitions)
+2. [**Store**](store-mapping/Store.md):            `Store_<Date>_<Time>_<fileid>.csv`
+3. [**ReceiptFooter**](store-mapping/ReceiptFooter.md):    `ReceiptFooter_<Date>_<Time>_<fileid>.xml` (optional footer definitions)
 
 
 * **Delimiter**: Comma (`,`)
