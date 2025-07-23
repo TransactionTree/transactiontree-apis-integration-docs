@@ -28,7 +28,7 @@
 | Store_Number      | String    | Unique identifier for the store, including any leading zeros.             |
 | Date              | String    | Date of the audit in `YYYYMMDD` format. |
 | Till       | INTEGER   | Till number inside the store.                               |
-| Tx         | BIGINT    | Flooid transaction ID representing the POS-level transaction.             |
+| Tx         | BIGINT    | Transaction ID representing the POS-level transaction.             |
 | MMS_Tx            | BIGINT    | MMS transaction ID for cross-system reconciliation.                       |
 
 ---
