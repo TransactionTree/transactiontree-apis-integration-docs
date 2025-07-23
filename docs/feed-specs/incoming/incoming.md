@@ -78,12 +78,16 @@ This document defines the format, naming conventions, directory paths, and valid
 
 ### 2.5 Product Feed
 
-* **Directory**: `/incoming/products`
-* **Filename**: `ProductFeed_YYYYMMDD_HHMMSS.zip`
-* **Contents**: Single CSV named `products.csv` with comma delimiter.
-* **Columns**:
+- **Directory**: `/incoming/products`
 
-  1. `ProductID` 2. `Name` 3. `Category` 4. `Price` 5. `UpdatedAt`
+Each batch run must produce two CSV files in this directory (the `<fileid>` component must match):
+
+- [**Category File**](products/CategoryFile.md):  
+  ``Category_<Date>_<Time>_<fileid>.csv``
+- [**Product File**](products/ProductFile.md):  
+  ``Product_<Date>_<Time>_<fileid>.csv``
+
+Refer to those linked specs for full column definitions, sample data, and validation rules.
 
 ### 2.6 Store Mapping
 
