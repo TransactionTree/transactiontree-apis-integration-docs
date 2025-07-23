@@ -82,10 +82,8 @@ This document defines the format, naming conventions, directory paths, and valid
 
 Each batch run must produce two CSV files in this directory (the `<fileid>` component must match):
 
-- [**Category File**](products/CategoryFile.md):  
-  ``Category_<Date>_<Time>_<fileid>.csv``
-- [**Product File**](products/ProductFile.md):  
-  ``Product_<Date>_<Time>_<fileid>.csv``
+- [**Category File**](products/Category.md):  `Category_<Date>_<Time>_<fileid>.csv`
+- [**Product File**](products/Product.md):  `Product_<Date>_<Time>_<fileid>.csv`
 
 Refer to those linked specs for full column definitions, sample data, and validation rules.
 
