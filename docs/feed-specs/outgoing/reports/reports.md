@@ -1,8 +1,8 @@
 # CpnBIData Report
 
-**Directory**: `/outgoing/reports`
-**Filename Pattern**: `CpnBIData_YYYYMMDDHHMMSS.csv`
-**Delimiter**: Pipe (`|`)
+* **Directory**: `/outgoing/reports`
+* **Filename Pattern**: `CpnBIData_YYYYMMDDHHMMSS.csv`
+* **Delimiter**: Pipe (`|`)
 
 # CpnBIData Column Definitions
 
