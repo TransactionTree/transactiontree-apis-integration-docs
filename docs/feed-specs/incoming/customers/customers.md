@@ -1,4 +1,4 @@
-# Party File Specifications
+# Customer File Specifications
 
 **Directory**: `/incoming/customers`
 
