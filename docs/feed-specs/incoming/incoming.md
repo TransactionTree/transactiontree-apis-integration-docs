@@ -131,4 +131,4 @@ Each batch must include three files sharing the same **Date**, **Time**, and **f
 
 ---
 
-*For any questions about specific feed formats or to request custom mappings, contact Data‑Ops at \*\***data‑***[***ops@transactiontree.com***](mailto:ops@transactiontree.com)*.*
+*For any questions about specific feed formats or to request custom mappings, contact Data‑Ops at [data‑ops@transactiontree.com](mailto:ops@transactiontree.com)*.*
