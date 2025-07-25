@@ -75,17 +75,27 @@
 
 ### CpnDaily\_ParamReasonList\_YYYYMMDDHHMMSS.csv
 
-| Field Name    | Data Type      | Description / Logic / Comments                                     |
-| ------------- | -------------- | ------------------------------------------------------------------ |
-| `div_num`     | Integer        | Division number, default = 1.                                      |
-| `version_num` | Integer        | Schema or config version, default = 1.                             |
-| `store_edit`  | Boolean (0/1)  | Was entry edited in UI, default = 1.                               |
-| `edit_date`   | Datetime       | Timestamp of last edit (e.g., 2025-07-16 17:57:27).                |
-| `edit_by`     | String         | User who edited the entry (e.g., “SG”).                            |
-| `reason_id`   | String/Integer | Grouping reason ID (attr\_grouping).                               |
-| `seq_num`     | Integer/String | POS code (attr\_posCode).                                          |
-| `literal`     | String         | Display name/label shown in UI.                                    |
-| ...           | ...            | Additional fields such as `manager_auth`, `loyalty_required`, etc. |
+| Field Name          | Data Type         | Description                                                       |
+|---------------------|-------------------|-------------------------------------------------------------------|
+| `div_num`           | Integer           | Division number. Default = 1.                                     |
+| `version_num`       | Integer           | Schema or config version. Default = 1.                            |
+| `store_edit`        | Boolean (0/1)     | Was entry edited in UI. Default = 1.                              |
+| `edit_date`         | Datetime          | When the entry was edited. Example: `2025-07-16 17:57:27`.        |
+| `edit_by`           | String (varchar)  | Who edited the entry. Example: `"SG"`.                            |
+| `reason_id`         | String or Integer | Grouping reason ID (`attr_grouping`).                             |
+| `seq_num`           | Integer or String | POS code (`attr_posCode`).                                        |
+| `literal`           | String (varchar)  | Display name / label (shown in UI or reports).                    |
+| `manager_auth`      | Boolean (0/1)     | 1 if `storeManagerAuthorizationRequired = Y`, else 0.             |
+| `loyalty_required`  | Boolean (0/1)     | Is loyalty required. Default = 0.                                 |
+| `comment_required`  | Boolean (0/1)     | 1 if `commReq = Y`, else 0.                                       |
+| `hidden`            | Boolean (0/1)     | Whether the reason code is visible. Default = 0.                  |
+| `dsm_auth`          | Boolean (0/1)     | 1 if `attr_posRc1 = Y`, else 0.                                   |
+| `eventnum`          | Integer           | Coupon event ID, shared across serialized and non-serialized.     |
+| `brand_sg`          | Boolean (0/1)     | 1 if `ifattr_1 = Y`, else 0.                                      |
+| `brand_sgc`         | Boolean (0/1)     | 1 if `attr_9 = Y`, else 0.                                        |
+| `brand_spi`         | Boolean (0/1)     | 1 if `ifattr_6 = Y`, else 0.                                      |
+| `brand_spc`         | Boolean (0/1)     | 1 if `attr_7 = Y`, else 0.                                        |
+
 
 
 ### CpnDaily\_DealCoupon\_YYYYMMDDHHMMSS.csv
