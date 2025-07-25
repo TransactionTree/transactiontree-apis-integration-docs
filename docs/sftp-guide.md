@@ -35,7 +35,7 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 | `/outgoing/audit`            | Audit output files       | `TransAudit_YYYYMMDD_HHMMSS.csv`                                   | `Comma (,)`    |     |
 | `/outgoing/coupons/barcodes` | Generated barcode images | `CpnBarCode-{PromoID}-YYYYMMDDHHMMSS.csv`                          | `Pipeline (\|)` |
 | `/outgoing/coupons/daily`    | Daily coupon files       | `CpnDaily_PromoStores_YYYYMMDDHHMMSS.csv`<br>`CpnDaily_DealCoupon_YYYYMMDDHHMMSS.csv`<br>`CpnDaily_Definition_YYYYMMDDHHMMSS.csv`<br>`CpnDaily_Event_YYYYMMDDHHMMSS.csv`<br>`CpnDaily_ParamReasonList_YYYYMMDDHHMMSS.csv`                                      | `Pipeline (\|)` |     |
-| `/outgoing/coupons/sameday`  | Same‑day coupon files    | `CpnSameDay_PromoStores_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_DealCoupon_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_Definition_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_Event_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_ParamReasonList_YYYYMMDDHHMMSS.csv`                                    | `Newline (\n)` |     |
+| `/outgoing/coupons/sameday`  | Same‑day coupon files    | `CpnSameDay_PromoStores_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_DealCoupon_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_Definition_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_Event_YYYYMMDDHHMMSS.csv`<br>`CpnSameDay_ParamReasonList_YYYYMMDDHHMMSS.csv`                                    | `Pipeline (\|)` |     |
 | `/outgoing/customers`        | Customer master data     | `CustomerOutput_YYYYMMDDHHMMSS.csv`                                | `Pipeline (\|)` |
 | `/outgoing/reports`          | Scheduled reports        | `CpnBIData_YYYYMMDDHHMMSS.csv`                                     | `Pipeline (\|)` |
 
