@@ -26,7 +26,7 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 
 | Directory                    | Usage                    | File Naming Pattern                                                | Delimiter      |     |
 | ---------------------------- | ------------------------ | ------------------------------------------------------------------ | -------------- | --- |
-| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`  [audit](/incoming/audit/audit.md)                                      | `Comma (,)`    |     |
+| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`  [audit](/feed-specs/incoming/audit/audit.md)                                      | `Comma (,)`    |     |
 | `/incoming/customers`        | New or updated customers | `CustomerUpdate_YYYYMMDDHHMMSS.csv`                                | `Pipeline (\|)` |
 | `/incoming/legacy`           | Legacy file formats      | *Various legacy formats*; see partner docs                         | `N/A`          |     |
 | `/incoming/pos-events`       | Deal files or headers    | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`    |     |
