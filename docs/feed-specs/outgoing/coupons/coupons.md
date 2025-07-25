@@ -38,7 +38,7 @@ Each subdirectory contains files following strict naming conventions and schema 
 **Filename Pattern**: `CpnBarCode-<PromoID>-<YYYYMMDDHHMMSS>.csv`
 **Separator**: Pipe (`|`)
 
-For detailed column definitions, see the [barcodes metadata reference](/barcodes/barcodes.md).
+For detailed column definitions, see the [barcodes metadata reference](barcodes/barcodes.md).
 
 ---
 
