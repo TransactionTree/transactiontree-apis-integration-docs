@@ -26,7 +26,7 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 
 | Directory                    | Usage                    | File Naming Pattern                                                | Delimiter      |     |
 | ---------------------------- | ------------------------ | ------------------------------------------------------------------ | -------------- | --- |
-| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`                                    | `Comma (,)`    |     |
+| `/incoming/audit`            | Daily audit files        | `YYYYMMDDHHMMSS_dailyaudit.csv`[audit](/icoming/audit/audit.md)                                      | `Comma (,)`    |     |
 | `/incoming/customers`        | New or updated customers | `CustomerUpdate_YYYYMMDDHHMMSS.csv`                                | `Pipeline (\|)` |
 | `/incoming/legacy`           | Legacy file formats      | *Various legacy formats*; see partner docs                         | `N/A`          |     |
 | `/incoming/pos-events`       | Deal files or headers    | `POSEvent_YYYYMMDDHHMM.csv`  <br> `POSEventStore_YYYYMMDDHHMM.csv` | `Comma (,)`    |     |
@@ -38,7 +38,7 @@ If you do not yet have the SFTP domain or IP address, or if your team encounters
 | `/outgoing/coupons/sameday`  | Same‑day coupon files    | `CpnSameDay_YYYYMMDDHHMMSS.sql`                                    | `Newline (\n)` |     |
 | `/outgoing/customers`        | Customer master data     | `CustomerOutput_YYYYMMDDHHMMSS.csv`                                | `Pipeline (\|)` |
 | `/outgoing/reports`          | Scheduled reports        | `CpnBIData_YYYYMMDDHHMMSS.csv`                                     | `Pipeline (\|)` |
-
+[Product](Product.md) 
 ---
 
 ## Support & Assistance
