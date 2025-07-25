@@ -69,11 +69,11 @@ docs/
 ## 🔗 Related Resources
 
 * **Root README:** [`../README.md`](../README.md)
-* **Postman Collection:** [`../examples/postman/TransactionTree.postman_collection.json`](../examples/postman/TransactionTree.postman_collection.json)
-* **Live Developer Portal:** [https://developers.transactiontree.com/](https://developers.transactiontree.com/)
+* **Postman Collection:** [`postman/TransactionTree.postman_collection.json`](postman/TransactionTree.postman_collection.json)
+* **Live Developer Portal:** [https://esupport.transactiontree.com/](https://esupport.transactiontree.com/)
 * **Support Contacts:**
 
-  * Data‑Ops: data‑[ops@transactiontree.com](mailto:ops@transactiontree.com)
+  * Data‑Ops: [data‑ops@transactiontree.com](mailto:data-ops@transactiontree.com)
   * SFTP Helpdesk: [support@transactiontree.com](mailto:support@transactiontree.com)
 
 ---
