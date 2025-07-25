@@ -83,28 +83,7 @@ Refer to that document for full column names, data types, and in‑depth descrip
 
 ### Column Definitions
 
-Same‑day files follow the same base schema as daily exports (see: [`CpnBIData.md`](./CpnBIData.md)), but capture intra‑day snapshots.
-
-For quick reference, key columns in *Event* and *Definition* files include:
-
-#### `CpnSameDay_Event_<timestamp>.csv`
-
-| Column             | Data Type | Description                        |
-| ------------------ | --------- | ---------------------------------- |
-| `eventnum`         | INT       | Unique promotion event identifier. |
-| `description`      | VARCHAR   | Human‑readable promotion name.     |
-| `startdate`        | DATETIME  | Promotion start date/time.         |
-| `stopdate`         | DATETIME  | Promotion end date/time.           |
-| `long_description` | VARCHAR   | Extended description or notes.     |
-
-#### `CpnSameDay_Definition_<timestamp>.csv`
-
-Key flags and rules (boolean and numeric):
-`coupon_identifier`, `eventnum`, `manager_auth_required`, `scanned_invalid`, `manual_invalid`,
-`allow_multiple_trans`, `manual_display_order`, `tlog_reason_code`, `reason_code_description`,
-`discount_type`, `discount_level`, `percent_off`, `dollar_amount`, `new_price`, `pos_desc`, `receipt_desc`, `dsm_auth`, …
-
-*(All other columns mirror the daily `Definition` schema; see BI Data Dictionary for complete list.)*
+Same‑day files follow the same base schema as daily exports (see: [`CpnSameDay.md`](sameday/CpnSameDay.md)), but capture intra‑day snapshots.
 
 ---
 
