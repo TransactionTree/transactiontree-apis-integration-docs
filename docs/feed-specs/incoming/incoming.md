@@ -34,12 +34,15 @@ This document defines the format, naming conventions, directory paths, and valid
   AuditID,Timestamp,User,Action,Details
   A123,2025-07-01T12:29:45Z,partnerUser1,UPLOAD,File received
   ```
+- [**Audit File**](audit/audit.md):  `<Date><Time>_dailyaudit.csv`
+
 
 ### 2.2 Customer Updates
 
 * **Directory**: `/incoming/customers`
-* **Filename**: `CustomerUpdate_YYYYMMDDHHMMSS.csv`
-* **Delimiter**: Pipeline (`|`)
+* **Filename**: `Customer_<Date>_<Time>_<fileid>.csv`
+* **Delimiter**: Comma (`,`)
+* **Text Enclosure**: Double quotes (`"`)
 * **Columns**:
 
   1. `CustomerID` (UUID)
@@ -53,6 +56,7 @@ This document defines the format, naming conventions, directory paths, and valid
   CustomerID|Name|Email|Status|UpdatedAt
   550e8400-e29b-41d4-a716-446655440000|Jane Doe|jane@example.com|ACTIVE|2025-07-01T12:30:00Z
   ```
+- [**Customers File**](customers/customers.md):  `Customer_<Date>_<Time>_<fileid>.csv`
 
 ### 2.3 Legacy Formats
 
@@ -75,15 +79,22 @@ This document defines the format, naming conventions, directory paths, and valid
   EventID,StoreNo,EventDate,Total
   E123,00001,2025-07-01T12:30:00Z,150.75
   ```
+- [**POS Events File**](pos-events/pos-events.md)
+
 
 ### 2.5 Product Feed
 
 - **Directory**: `/incoming/products`
 
-Each batch run must produce two CSV files in this directory (the `<fileid>` component must match):
+Each batch run must produce at least two CSV files in this directory (the `<fileid>` component must match):
 
 - [**Category File**](products/Category.md):  `Category_<Date>_<Time>_<fileid>.csv`
 - [**Product File**](products/Product.md):  `Product_<Date>_<Time>_<fileid>.csv`
+
+Optional but recommended:
+
+- [**Product Locale File**](products/ProductLocale.md):  `ProductLocale_<Date>_<Time>_<fileid>.csv`
+- [**Product Price File**](products/ProductPrice.md):  `ProductPrice_<Date>_<Time>_<fileid>.csv`
 
 Refer to those linked specs for full column definitions, sample data, and validation rules.
 
