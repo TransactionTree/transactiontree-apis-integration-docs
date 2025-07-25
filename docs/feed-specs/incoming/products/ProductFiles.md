@@ -1,4 +1,4 @@
-# Product File Specification
+# Product Files Specification
 
 **Directory**: `/incoming/products`
 
