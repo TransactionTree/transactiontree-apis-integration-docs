@@ -60,7 +60,7 @@ For detailed column definitions, see the [barcodes metadata reference](barcodes/
 
 ### Schema Reference
 
-All daily file schemas are defined in the BI Data Dictionary file: [`CpnBIData.md`](./CpnBIData.md).
+All daily file schemas are defined in the daily dictionary file: [`CpnDaily.md`](daily/CpnDaily.md).
 Refer to that document for full column names, data types, and in‑depth descriptions.
 
 **Tip**: Before loading into downstream systems, validate each CSV against the dictionary schema to ensure no missing or extra columns.
