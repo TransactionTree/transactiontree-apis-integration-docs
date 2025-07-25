@@ -29,12 +29,12 @@ This file contains metadata and configuration details for POS deal events.
 
 | Column     | Sample Value      | Description                       | Data Type    | Notes                                               |
 | ---------- | ----------------- | --------------------------------- | ------------ | --------------------------------------------------- |
-| `Add/Del`    | A/D               | Type of Operation (Add or Delete) | CHAR(1)      | Indicates if the record is new or should be removed |
-| `Event Num`  | 5609              | ID                                | VARCHAR(20)  | Unique identifier for the event                     |
-| `Desc`       | 01.BOGO\$1clrABC/ | Description                       | VARCHAR(255) | Human-readable deal description                     |
-| `Start Date` | 3/17/2025         | Start date                        | DATETIME     | Start of event validity                             |
-| `End Date`   | 8/24/2025         | End date                          | DATETIME     | End of event validity                               |
-| `Coupon Req` | Y/N               | Coupon Requirement                | CHAR(1)      | Default is "N" (No)                                 |
+| `Add/Del`    | A/D  | Type of Operation (Add or Delete) | CHAR(1)      | Indicates if the record is new or should be removed |
+| `Event Num`  | 5609 | ID | VARCHAR(20)  | Unique identifier for the event                     |
+| `Desc`       | 01.BOGO\$1clrABC/ | Description | VARCHAR(255) | Human-readable deal description                     |
+| `Start Date` | 3/17/2025         | Start date                        | DATETIME     | Start of event validity |
+| `End Date`   | 8/24/2025         | End date                          | DATETIME     | End of event validity|
+| `Coupon Req` | Y/N               | Coupon Requirement                | CHAR(1)      | Default is "N" (No)|
 
 ---
 
@@ -62,5 +62,3 @@ Each record maps a store (by number) to a specific `EventID` as defined in the `
 * All `EventID`s listed in `POSEventStore` must reference a valid `Event Num` in `POSEvent`.
 
 ---
-
-Let me know if you’d like a downloadable `.md` file or further formatting/styling adjustments.
