@@ -68,7 +68,7 @@ docs/
 
 ## 🔗 Related Resources
 
-* **Root README:** [`../README.md`](../README.md)
+* **Root README:** [`README.md`](README.md)
 * **Postman Collection:** [`postman/TransactionTree.postman_collection.json`](postman/TransactionTree.postman_collection.json)
 * **Live Developer Portal:** [https://esupport.transactiontree.com/](https://esupport.transactiontree.com/)
 * **Support Contacts:**
