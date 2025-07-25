@@ -3,13 +3,15 @@
 **Directory**: `/incoming/products`
 
 ## Filename
-| Filename | Coumn Definitions | Description |
-| ------------------------------------------ | ------------------------------------------------- |
-| `Product_<Date>_<Time>_<fileid>.csv` | [`Product.md`](Product.md) | Contains detailed metadata for each product, including taxonomy, pricing, and categorization. |
-| `Category_<Date>_<Time>_<fileid>.csv` | [`Category.md`](Category.md) | Defines product categories and their hierarchy within the catalog. |
-| `ProductLocale_<Date>_<Time>_<fileid>.csv` | [`ProductLocale.md`](ProductLocale.md) | Contains product name and description connected to locale |
-| `ProductPrice_<Date>_<Time>_<fileid>.csv` | [`ProductPrice.md`](ProductPrice.md) | Contains product pricing information |
 
+| Filename                                   | Column Definitions                | Description                                                                                   |
+| ------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------------- |
+| `Product_<Date>_<Time>_<fileid>.csv`       | [Product](Product.md)             | Contains detailed metadata for each product, including taxonomy, pricing, and categorization. |
+| `Category_<Date>_<Time>_<fileid>.csv`      | [Category](Category.md)           | Defines product categories and their hierarchy within the catalog.                            |
+| `ProductLocale_<Date>_<Time>_<fileid>.csv` | [ProductLocale](ProductLocale.md) | Contains localized product names and descriptions per locale.                                 |
+| `ProductPrice_<Date>_<Time>_<fileid>.csv`  | [ProductPrice](ProductPrice.md)   | Contains product pricing information, including promotional and base prices.                  |
+
+---
 * `<Date>`: `YYYYMMDD` (e.g. `20250723`)
 * `<Time>`: `HHMMSS` (24‑hour clock)
 * `<fileid>`: partner batch identifier (must match across related files)
